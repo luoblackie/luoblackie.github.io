@@ -69,26 +69,6 @@
             <span>&ensp;Home</span>
         </a>
         
-        <a href="/about">
-            <i class="fa-solid fa-id-card fa-fw"></i>
-            <span>&ensp;About</span>
-        </a>
-        
-        <a href="/archives">
-            <i class="fa-solid fa-box-archive fa-fw"></i>
-            <span>&ensp;Archives</span>
-        </a>
-        
-        <a href="/categories">
-            <i class="fa-solid fa-bookmark fa-fw"></i>
-            <span>&ensp;Categories</span>
-        </a>
-        
-        <a href="/tags">
-            <i class="fa-solid fa-tags fa-fw"></i>
-            <span>&ensp;Tags</span>
-        </a>
-        
     </nav>
     <nav id="mobile-menu">
         <div class="title" @click="showMenuItems = !showMenuItems">
@@ -104,42 +84,6 @@
                             <i class="fa-solid fa-house fa-fw"></i>
                         </div>
                         <div style="min-width: 100px; max-width: 150%; width: 20%">Home</div>
-                    </div>
-                </a>
-                
-                <a href="/about">
-                    <div class="item">
-                        <div style="min-width: 20px; max-width: 50px; width: 10%">
-                            <i class="fa-solid fa-id-card fa-fw"></i>
-                        </div>
-                        <div style="min-width: 100px; max-width: 150%; width: 20%">About</div>
-                    </div>
-                </a>
-                
-                <a href="/archives">
-                    <div class="item">
-                        <div style="min-width: 20px; max-width: 50px; width: 10%">
-                            <i class="fa-solid fa-box-archive fa-fw"></i>
-                        </div>
-                        <div style="min-width: 100px; max-width: 150%; width: 20%">Archives</div>
-                    </div>
-                </a>
-                
-                <a href="/categories">
-                    <div class="item">
-                        <div style="min-width: 20px; max-width: 50px; width: 10%">
-                            <i class="fa-solid fa-bookmark fa-fw"></i>
-                        </div>
-                        <div style="min-width: 100px; max-width: 150%; width: 20%">Categories</div>
-                    </div>
-                </a>
-                
-                <a href="/tags">
-                    <div class="item">
-                        <div style="min-width: 20px; max-width: 50px; width: 10%">
-                            <i class="fa-solid fa-tags fa-fw"></i>
-                        </div>
-                        <div style="min-width: 100px; max-width: 150%; width: 20%">Tags</div>
                     </div>
                 </a>
                 
@@ -198,11 +142,7 @@
     <div class="description">
         <div class="content" v-pre>
             
-            <h1 id="github仓库地址"><a href="#github仓库地址" class="headerlink" title="github仓库地址"></a>github仓库地址</h1><p><a target="_blank" rel="noopener" href="https://github.com/Stability-AI/stablediffusion">https://github.com/Stability-AI/stablediffusion</a></p>
-<p>整合包：<a target="_blank" rel="noopener" href="https://github.com/AUTOMATIC1111/stable-diffusion-webui">stable-diffusion-webui</a></p>
-<h1 id="在AMD显卡上运行"><a href="#在AMD显卡上运行" class="headerlink" title="在AMD显卡上运行"></a>在AMD显卡上运行</h1><p>参考文章：<a target="_blank" rel="noopener" href="https://www.cnblogs.com/LFeather/p/18514921">在Windows环境下使用AMD显卡运行Stable Diffusion</a></p>
-<p>参考wiki：<a target="_blank" rel="noopener" href="https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Install-and-Run-on-AMD-GPUs">Install and Run on AMD GPUs</a></p>
-
+            <p>记录自己使用stablediffusion的过程，无限延期中。。。</p>
             
         </div>
     </div>
@@ -233,29 +173,6 @@
         <div class="content" v-pre>
             
             <p><a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/">官方中文文档链接</a></p>
-<h2 id="快速使用"><a href="#快速使用" class="headerlink" title="快速使用"></a>快速使用</h2><h3 id="一键部署"><a href="#一键部署" class="headerlink" title="一键部署"></a>一键部署</h3><pre><code class="language-shell">hexo cl &amp;&amp; hexo d -g
-</code></pre>
-<h3 id="创建文章"><a href="#创建文章" class="headerlink" title="创建文章"></a>创建文章</h3><pre><code class="language-shell">hexo new [theme] [title]
-</code></pre>
-<p>theme — 默认使用config.yml中的主题<br>title — 文章标题</p>
-<h2 id="主题"><a href="#主题" class="headerlink" title="主题"></a>主题</h2><h3 id="1、Hexo-Theme-ParticleX"><a href="#1、Hexo-Theme-ParticleX" class="headerlink" title="1、Hexo-Theme-ParticleX"></a>1、Hexo-Theme-ParticleX</h3><p><a target="_blank" rel="noopener" href="https://github.com/theme-particlex/hexo-theme-particlex">https://github.com/theme-particlex/hexo-theme-particlex</a></p>
-<h2 id="插件"><a href="#插件" class="headerlink" title="插件"></a>插件</h2><h3 id="hexo-renderer-marked"><a href="#hexo-renderer-marked" class="headerlink" title="hexo-renderer-marked"></a>hexo-renderer-marked</h3><p><a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/asset-folders#%E4%BD%BF%E7%94%A8-Markdown-%E5%B5%8C%E5%85%A5%E5%9B%BE%E7%89%87">链接 - 使用 Markdown 嵌入图片</a></p>
-<p>启用方式</p>
-<pre><code class="language-yml"># _config.yml
-
-post_asset_folder: true
-marked:
-  prependRoot: true
-  postAsset: true
-</code></pre>
-<p><a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo-renderer-marked">hexo-renderer-marked</a> 3.1.0 引入了一个新的选项，其允许你无需使用 asset_img 标签插件就可以在 markdown 中嵌入图片</p>
-<p>启用后，资源图片将会被自动解析为其对应文章的路径。 例如： image.jpg 位置为 &#x2F;2020&#x2F;01&#x2F;02&#x2F;foo&#x2F;image.jpg ，这表示它是 &#x2F;2020&#x2F;01&#x2F;02&#x2F;foo&#x2F; 文章的一张资源图片， <code>![](image.jpg) 将会被解析为 &lt;img src=&quot;/2020/01/02/foo/image.jpg&quot;&gt; </code>。</p>
-<ul>
-<li>安装</li>
-</ul>
-<pre><code class="language-shell">npm install hexo-renderer-marked --save
-</code></pre>
-
             
         </div>
     </div>
